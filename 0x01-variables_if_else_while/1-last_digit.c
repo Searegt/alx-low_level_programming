@@ -4,7 +4,7 @@ int main(void)
 {
 	int age;
 
-	printf("What if you age");
+	printf("What if your age\n");
 	scanf("%d", &age);
 
 	if (age > 18)
