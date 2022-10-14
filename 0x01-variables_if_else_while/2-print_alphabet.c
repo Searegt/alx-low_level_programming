@@ -1,25 +1,20 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	char grade;
+	char c;
 
-	printf("Please enter your ypu grade to see remark\n");
-	scanf("%c", &grade);
-
-	switch(grade)
-	{
-	case 'A';
-		printf("You are excellent student");
-		break;
-	case 'B';
-		printf("Good studentt");
-		break;
-	case 'C';
-		printf("You did well");
-		break;
-	default;
-		printf("No remark");
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
 		return (0);
 }
