@@ -4,8 +4,8 @@ int main(void)
 {
 	char grade;
 
-	printf("Please enter your ypu grade to see remark");
-	scanf("%c, &grade);
+	printf("Please enter your ypu grade to see remark\n");
+	scanf("%c", &grade);
 
 	switch(grade)
 	case 'A':
