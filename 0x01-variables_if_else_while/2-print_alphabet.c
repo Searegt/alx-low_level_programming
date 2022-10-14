@@ -8,16 +8,18 @@ int main(void)
 	scanf("%c", &grade);
 
 	switch(grade)
-	case 'A':
+	{
+	case 'A';
 		printf("You are excellent student");
 		break;
-	case 'B':
+	case 'B';
 		printf("Good studentt");
 		break;
-	case 'C':
+	case 'C';
 		printf("You did well");
 		break;
-	default:
+	default;
 		printf("No remark");
+	}
 		return (0);
 }
