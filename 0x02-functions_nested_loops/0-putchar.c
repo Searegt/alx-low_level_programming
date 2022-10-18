@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- *
+ * Written by saa
  * Return: 0
  */
 
