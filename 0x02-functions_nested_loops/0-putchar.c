@@ -5,15 +5,17 @@
  *
  * Return: 0
  */
+
 int main(void)
 {
-_putchar file('_');
-_putchar file('p');
-_putchar file('u');
-_putchar file('t');
-_putchar file('c');
-_putchar file('h');
-_putchar file('r');
-_putchar file('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
