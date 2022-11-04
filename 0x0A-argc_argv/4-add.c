@@ -29,7 +29,7 @@ int check_num(char *str)
 }
 
 /**
- * main - print the name of te program
+ * main - print the name of the program
  * @argc: count arguments
  * @argv: arguments
  *
