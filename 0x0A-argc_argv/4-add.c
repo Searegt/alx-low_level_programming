@@ -30,7 +30,7 @@ int check_num(char *str)
 
 /**
  * main - print the name of te program
- * @argc: count argument
+ * @argc: count arguments
  * @argv: arguments
  *
  * Return: always 0 (success)
