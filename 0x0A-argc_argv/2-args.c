@@ -11,8 +11,17 @@
 
 int main(int argc, char *argv[])
 {
-	(void) argv; /*Ignore argv*/
-	printf("%1\n", argc - 1);
+	/*Declaring variables*/
+	int count - 0;
 
+	if (argc > 0)
+	{
+		/*While - print each arguments*/
+		while (count < argc)
+		{
+			printf("%s\n", argv[count]);
+			count++;
+		}
+	}
 	return (0);
 }
